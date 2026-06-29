@@ -1,9 +1,9 @@
-# group_37
+# Шпаргалка по Git и GitHub
 
+Учебный репозиторий с базовыми командами Git.
 
-# H1 — заголовок первого уровня, самый большой
-## H2 — заголовок второго уровня, поменьше
-### H3
-#### H4
-##### H5
-###### H6 — заголовок шестого уровня, самый маленький
+## Начало работы
+
+```bash
+git config --global user.name "Andrew Jonathan"
+git config --global user.email "andrew.jonathan.wise6@gmail.com"
