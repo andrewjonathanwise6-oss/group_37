@@ -56,3 +56,19 @@ graph LR;
   staged -- "git commit" --> committed;
   committed -- "изменить файл" --> modified;
   modified -- "git add" --> staged;
+  
+  ## Сообщения коммитов
+
+Сообщение коммита должно коротко и понятно объяснять, что изменилось.
+
+Примеры хороших сообщений:
+
+- `Add README`
+- `Update Git cheat sheet`
+- `Add section about HEAD`
+- `Fix typo in README`
+
+Коммит создаётся командой:
+
+```bash
+git commit -m "Описание изменений"
