@@ -39,3 +39,20 @@ git log --oneline
 
 ```bash
 git log
+
+## Статусы файлов в Git
+
+Основные статусы файлов:
+
+- `untracked` — новый файл, Git ещё не отслеживает его;
+- `tracked` — файл уже известен Git;
+- `modified` — отслеживаемый файл был изменён;
+- `staged` — изменения подготовлены для коммита;
+- `committed` — изменения сохранены в истории Git.
+
+```mermaid
+graph LR;
+  untracked -- "git add" --> staged;
+  staged -- "git commit" --> committed;
+  committed -- "изменить файл" --> modified;
+  modified -- "git add" --> staged;
