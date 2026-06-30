@@ -18,3 +18,13 @@ git config --global user.email "andrew.jonathan.wise6@gmail.com"
 
 ```bash
 git log
+
+## История коммитов
+
+Команда `git log` показывает историю коммитов: хеш, автора, дату и сообщение коммита.
+
+Сокращённый вариант:
+
+```bash
+git log --oneline
+git log --oneline
